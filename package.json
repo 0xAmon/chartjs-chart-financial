@@ -6,8 +6,16 @@
   "type": "module",
   "module": "dist/chartjs-chart-financial.esm.js",
   "exports": {
-    "import": "./dist/chartjs-chart-financial.esm.js",
-    "require": "./dist/chartjs-chart-financial.min.js"
+    ".": {
+      "import": {
+        "types": "./types/index.d.ts",
+        "default": "./dist/chartjs-chart-financial.esm.js"
+      },
+      "require": {
+        "types": "./types/index.d.ts",
+        "default": "./dist/chartjs-chart-financial.min.js"
+      }
+    }
   },
   "types": "types/index.d.ts",
   "license": "MIT",
