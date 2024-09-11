@@ -5,6 +5,10 @@
   "version": "0.2.1",
   "type": "module",
   "module": "dist/chartjs-chart-financial.esm.js",
+  "exports": {
+    "import": "./dist/chartjs-chart-financial.esm.js",
+    "require": "./dist/chartjs-chart-financial.min.js"
+  },
   "types": "types/index.d.ts",
   "license": "MIT",
   "repository": {
